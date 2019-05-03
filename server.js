@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 var cors = require('cors');
 app.use(cors());
 
-var morgan = require('morgan');
+/* var morgan = require('morgan');
 var logger = require("./winston");
 app.use(morgan('combined', { "stream": logger.stream }));
-logger.debug("Overriding 'Express' logger");
+logger.debug("Overriding 'Express' logger"); */
 
 //router for transaction
 /* var transactionRoute = require('./routes/routesTransaction');
