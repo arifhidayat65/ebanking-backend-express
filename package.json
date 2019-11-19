@@ -14,7 +14,7 @@
     "express": "^4.16.4",
     "morgan": "^1.9.1",
     "mysql2": "^1.6.5",
-    "sequelize": "^5.8.2",
+    "sequelize": "^5.15.1",
     "sonarqube-scanner": "^2.4.0",
     "winston": "^3.2.1"
   }
